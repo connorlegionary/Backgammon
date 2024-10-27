@@ -16,7 +16,6 @@ android: {
 CONFIG -= bitcode
 
 SOURCES += \
-        ../../Projects/Backgammon/puzzles/puzzlemodel.cpp \
         analysis/analtypes.cpp \
         analysis/analysis.cpp \
         analysis/analysisthread.cpp \
@@ -25,6 +24,7 @@ SOURCES += \
         diceroll.cpp \
         main.cpp \
         puzzles/puzzledata.cpp \
+        puzzles/puzzlemodel.cpp \
         puzzles/puzzlemove.cpp \
         src/column.cpp \
         src/database/action.cpp \
@@ -70,7 +70,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    ../../Projects/Backgammon/puzzles/puzzlemodel.h \
     analysis/analtypes.h \
     analysis/analysis.h \
     analysis/analysisthread.h \
@@ -78,6 +77,7 @@ HEADERS += \
     analysis/positionmodel.h \
     diceroll.h \
     puzzles/puzzledata.h \
+    puzzles/puzzlemodel.h \
     puzzles/puzzlemove.h \
     src/column.h \
     src/database/action.h \
