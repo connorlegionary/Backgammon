@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>roll.png</file>
+        <file>play.png</file>
+        <file>dice_black_1.png</file>
+        <file>dice_black_2.png</file>
+        <file>dice_black_3.png</file>
+        <file>dice_black_4.png</file>
+        <file>dice_black_5.png</file>
+        <file>dice_black_6.png</file>
+        <file>dice_white_1.png</file>
+        <file>dice_white_2.png</file>
+        <file>dice_white_3.png</file>
+        <file>dice_white_4.png</file>
+        <file>dice_white_5.png</file>
+        <file>dice_white_6.png</file>
+        <file>undo.png</file>
+        <file>analysis.png</file>
+        <file>cancel.png</file>
+        <file>double.png</file>
+        <file>finish.png</file>
+        <file>search.png</file>
+        <file>menu.png</file>
+    </qresource>
+</RCC>
